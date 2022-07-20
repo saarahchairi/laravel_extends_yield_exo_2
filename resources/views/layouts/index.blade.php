@@ -8,6 +8,11 @@
     <title>laravel_extends_yield_exo_2</title>
 </head>
 <body>
-
+    <header>
+        @include("partial.nav")
+    </header>
+    <main>
+        @yield("content")
+    </main>
 </body>
 </html>
